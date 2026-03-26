@@ -14,3 +14,8 @@ AND countrycode = 'USA';
 -- Select all values from the CITY table
 
 SELECT * FROM city;
+
+-- Query all columns for a city in CITY with the ID 1661.
+
+SELECT * FROM city
+WHERE id = '1661';
