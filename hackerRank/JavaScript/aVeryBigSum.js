@@ -50,6 +50,8 @@ function readLine() {
 
 function aVeryBigSum(ar) {
     // Write your code here
+    if(ar.length === 0) return 0;
+
     let totalSum = 0;
     for(let i=0; i<ar.length; i++){
         totalSum+=ar[i];
